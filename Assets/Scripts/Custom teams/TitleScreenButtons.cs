@@ -195,7 +195,7 @@ public class TitleScreenButtons : MonoBehaviour
         {
             string[] copy = new string[17];
             copy[0] = name;
-            for (int i = 0; i < 16; i++)
+            for (int i = 1; i < 17; i++)
             {
                 copy[i+1] = tempTeam[i];
             }
