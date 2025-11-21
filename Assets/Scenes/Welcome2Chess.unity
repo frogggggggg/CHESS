@@ -1322,7 +1322,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &365488707
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3039,7 +3039,6 @@ MonoBehaviour:
   BlackPieceMat: {fileID: 2100000, guid: d454d56deedcecf4bb3b3fd1110d235a, type: 2}
   map: {fileID: 0}
   gamedata: {fileID: 0}
-  audioManager: {fileID: 0}
   ScaleChildToTileSize: 1
   explosionEffect: {fileID: 8081762785826782278, guid: 78f97498504ef3d4993ec2a94b2fe734, type: 3}
   activeChessPiece: {fileID: 0}
@@ -5339,8 +5338,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamNames: []
-  whiteTeamIndex: 0
-  blackTeamIndex: 0
+  whiteTeamName: 
+  blackTeamName: 
   map: {fileID: 11400000, guid: fc7bf3fa28035a745a9fcb7135c1eaf7, type: 2}
 --- !u!23 &1609172982
 MeshRenderer:
